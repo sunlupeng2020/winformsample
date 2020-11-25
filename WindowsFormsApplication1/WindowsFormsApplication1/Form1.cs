@@ -44,5 +44,11 @@ namespace WindowsFormsApplication1
             Form4 form = new Form4();
             form.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form5 form = new Form5();//省市联动窗体
+            form.Show();
+        }
     }
 }
