@@ -38,5 +38,11 @@ namespace WindowsFormsApplication1
             Form2 form2 = new Form2();
             form2.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form4 form = new Form4();
+            form.Show();
+        }
     }
 }
