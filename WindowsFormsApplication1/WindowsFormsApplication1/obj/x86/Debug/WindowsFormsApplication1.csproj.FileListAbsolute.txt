@@ -22,3 +22,6 @@ F:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x8
 F:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
 F:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form4.resources
 F:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form5.resources
+F:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form6.resources
+F:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form7Treeview.resources
+F:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormMenu.resources
