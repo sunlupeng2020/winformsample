@@ -21,7 +21,7 @@ namespace WindowsFormsApplication1
             try
             {
                 form1.Close();
-                form1.Dispose();
+                //form1.Dispose();
             }
             catch
             {
@@ -77,6 +77,13 @@ namespace WindowsFormsApplication1
         {
             DisposeForm1();
             form1 = new Form7Treeview();
+            form1.Show();
+        }
+
+        private void 案例八走马灯ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DisposeForm1();
+            form1 = new Form8timer();
             form1.Show();
         }
     }

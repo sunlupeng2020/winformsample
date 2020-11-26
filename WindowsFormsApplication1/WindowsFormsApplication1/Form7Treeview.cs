@@ -24,5 +24,10 @@ namespace WindowsFormsApplication1
                 MessageBox.Show(text);
             }
         }
+
+        private void Form7Treeview_Load(object sender, EventArgs e)
+        {
+            tvxxxy.ExpandAll();
+        }
     }
 }

@@ -37,6 +37,7 @@
             this.案例五省市联动ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.案例六单选试题ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.案例七学院结构ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.案例八走马灯ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +60,8 @@
             this.案例四歌曲列表ToolStripMenuItem,
             this.案例五省市联动ToolStripMenuItem,
             this.案例六单选试题ToolStripMenuItem,
-            this.案例七学院结构ToolStripMenuItem});
+            this.案例七学院结构ToolStripMenuItem,
+            this.案例八走马灯ToolStripMenuItem});
             this.案例一按钮游戏ToolStripMenuItem.Name = "案例一按钮游戏ToolStripMenuItem";
             this.案例一按钮游戏ToolStripMenuItem.Size = new System.Drawing.Size(132, 21);
             this.案例一按钮游戏ToolStripMenuItem.Text = "第六章WinForm案例";
@@ -121,6 +123,13 @@
             this.案例七学院结构ToolStripMenuItem.ToolTipText = "Treeview树形控件";
             this.案例七学院结构ToolStripMenuItem.Click += new System.EventHandler(this.案例七学院结构ToolStripMenuItem_Click);
             // 
+            // 案例八走马灯ToolStripMenuItem
+            // 
+            this.案例八走马灯ToolStripMenuItem.Name = "案例八走马灯ToolStripMenuItem";
+            this.案例八走马灯ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.案例八走马灯ToolStripMenuItem.Text = "案例八走马灯";
+            this.案例八走马灯ToolStripMenuItem.Click += new System.EventHandler(this.案例八走马灯ToolStripMenuItem_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -148,5 +157,6 @@
         private System.Windows.Forms.ToolStripMenuItem 案例五省市联动ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 案例六单选试题ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 案例七学院结构ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 案例八走马灯ToolStripMenuItem;
     }
 }
