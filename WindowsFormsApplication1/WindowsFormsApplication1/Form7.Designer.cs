@@ -44,7 +44,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(114, 18);
+            this.label1.Location = new System.Drawing.Point(114, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 20);
             this.label1.TabIndex = 1;
