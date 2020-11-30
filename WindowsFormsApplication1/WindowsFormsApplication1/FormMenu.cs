@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace WindowsFormsApplication1
 {
@@ -85,6 +86,19 @@ namespace WindowsFormsApplication1
             DisposeForm1();
             form1 = new Form8timer();
             form1.Show();
+        }
+
+        private void 案例九英雄血条ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DisposeForm1();
+            form1 = new Form9ProgressBar();
+            form1.Show();
+        }
+
+        private void 访问数据库ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form7 form7 = new Form7();
+            form7.Show();                
         }
     }
 }

@@ -38,13 +38,17 @@
             this.案例六单选试题ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.案例七学院结构ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.案例八走马灯ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.案例九英雄血条ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.扩展案例ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.访问数据库ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.案例一按钮游戏ToolStripMenuItem});
+            this.案例一按钮游戏ToolStripMenuItem,
+            this.扩展案例ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(439, 25);
@@ -61,7 +65,8 @@
             this.案例五省市联动ToolStripMenuItem,
             this.案例六单选试题ToolStripMenuItem,
             this.案例七学院结构ToolStripMenuItem,
-            this.案例八走马灯ToolStripMenuItem});
+            this.案例八走马灯ToolStripMenuItem,
+            this.案例九英雄血条ToolStripMenuItem});
             this.案例一按钮游戏ToolStripMenuItem.Name = "案例一按钮游戏ToolStripMenuItem";
             this.案例一按钮游戏ToolStripMenuItem.Size = new System.Drawing.Size(132, 21);
             this.案例一按钮游戏ToolStripMenuItem.Text = "第六章WinForm案例";
@@ -127,8 +132,31 @@
             // 
             this.案例八走马灯ToolStripMenuItem.Name = "案例八走马灯ToolStripMenuItem";
             this.案例八走马灯ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.案例八走马灯ToolStripMenuItem.Text = "案例八走马灯";
+            this.案例八走马灯ToolStripMenuItem.Text = "案例八跑马灯";
             this.案例八走马灯ToolStripMenuItem.Click += new System.EventHandler(this.案例八走马灯ToolStripMenuItem_Click);
+            // 
+            // 案例九英雄血条ToolStripMenuItem
+            // 
+            this.案例九英雄血条ToolStripMenuItem.Name = "案例九英雄血条ToolStripMenuItem";
+            this.案例九英雄血条ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.案例九英雄血条ToolStripMenuItem.Text = "案例九英雄血条";
+            this.案例九英雄血条ToolStripMenuItem.ToolTipText = "ProgressBar控件应用";
+            this.案例九英雄血条ToolStripMenuItem.Click += new System.EventHandler(this.案例九英雄血条ToolStripMenuItem_Click);
+            // 
+            // 扩展案例ToolStripMenuItem
+            // 
+            this.扩展案例ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.访问数据库ToolStripMenuItem});
+            this.扩展案例ToolStripMenuItem.Name = "扩展案例ToolStripMenuItem";
+            this.扩展案例ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
+            this.扩展案例ToolStripMenuItem.Text = "扩展案例";
+            // 
+            // 访问数据库ToolStripMenuItem
+            // 
+            this.访问数据库ToolStripMenuItem.Name = "访问数据库ToolStripMenuItem";
+            this.访问数据库ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.访问数据库ToolStripMenuItem.Text = "访问数据库";
+            this.访问数据库ToolStripMenuItem.Click += new System.EventHandler(this.访问数据库ToolStripMenuItem_Click);
             // 
             // FormMenu
             // 
@@ -158,5 +186,8 @@
         private System.Windows.Forms.ToolStripMenuItem 案例六单选试题ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 案例七学院结构ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 案例八走马灯ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 案例九英雄血条ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 扩展案例ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 访问数据库ToolStripMenuItem;
     }
 }
