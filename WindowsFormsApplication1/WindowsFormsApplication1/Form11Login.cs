@@ -19,13 +19,17 @@ namespace WindowsFormsApplication1
         {
             if (!String.IsNullOrEmpty(txtName.Text) && !String.IsNullOrEmpty(txtPassword.Text))
             {
-                if (txtName.Text == "itcast" && txtPassword.Text == "123")
+                FormMenu.teacher=new Teacher(txtName.Text,txtPassword.Text);
+                
+                if (FormMenu.teacher.Authenticate())
                 {
                     MessageBox.Show("登陆成功！");
+                    label3.Text = FormMenu.teacher.Name;
                 }
                 else
                 {
                     MessageBox.Show("用户名或密码有错！");
+
                     txtPassword.Text = "";
                 }
             }

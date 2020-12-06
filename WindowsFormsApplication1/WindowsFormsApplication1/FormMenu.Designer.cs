@@ -41,9 +41,11 @@
             this.案例九英雄血条ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.扩展案例ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.访问数据库ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.写入数据库注册ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.读取数据库C语言章节联动ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.写入数据库注册ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.用户登录读取数据库ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.字符串StringToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.看做字符数组ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,10 +53,11 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.案例一按钮游戏ToolStripMenuItem,
-            this.扩展案例ToolStripMenuItem});
+            this.扩展案例ToolStripMenuItem,
+            this.字符串StringToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(439, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(627, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -164,19 +167,19 @@
             this.访问数据库ToolStripMenuItem.Text = "访问数据库-C语言课程结构";
             this.访问数据库ToolStripMenuItem.Click += new System.EventHandler(this.访问数据库ToolStripMenuItem_Click);
             // 
-            // 写入数据库注册ToolStripMenuItem
-            // 
-            this.写入数据库注册ToolStripMenuItem.Name = "写入数据库注册ToolStripMenuItem";
-            this.写入数据库注册ToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.写入数据库注册ToolStripMenuItem.Text = "写入数据库-注册";
-            this.写入数据库注册ToolStripMenuItem.Click += new System.EventHandler(this.写入数据库注册ToolStripMenuItem_Click);
-            // 
             // 读取数据库C语言章节联动ToolStripMenuItem
             // 
             this.读取数据库C语言章节联动ToolStripMenuItem.Name = "读取数据库C语言章节联动ToolStripMenuItem";
             this.读取数据库C语言章节联动ToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.读取数据库C语言章节联动ToolStripMenuItem.Text = "读取数据库-C语言章节联动";
             this.读取数据库C语言章节联动ToolStripMenuItem.Click += new System.EventHandler(this.读取数据库C语言章节联动ToolStripMenuItem_Click);
+            // 
+            // 写入数据库注册ToolStripMenuItem
+            // 
+            this.写入数据库注册ToolStripMenuItem.Name = "写入数据库注册ToolStripMenuItem";
+            this.写入数据库注册ToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
+            this.写入数据库注册ToolStripMenuItem.Text = "写入数据库-注册";
+            this.写入数据库注册ToolStripMenuItem.Click += new System.EventHandler(this.写入数据库注册ToolStripMenuItem_Click);
             // 
             // 用户登录读取数据库ToolStripMenuItem
             // 
@@ -185,11 +188,26 @@
             this.用户登录读取数据库ToolStripMenuItem.Text = "用户登录-读取数据库";
             this.用户登录读取数据库ToolStripMenuItem.Click += new System.EventHandler(this.用户登录读取数据库ToolStripMenuItem_Click);
             // 
+            // 字符串StringToolStripMenuItem
+            // 
+            this.字符串StringToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.看做字符数组ToolStripMenuItem});
+            this.字符串StringToolStripMenuItem.Name = "字符串StringToolStripMenuItem";
+            this.字符串StringToolStripMenuItem.Size = new System.Drawing.Size(90, 21);
+            this.字符串StringToolStripMenuItem.Text = "字符串String";
+            // 
+            // 看做字符数组ToolStripMenuItem
+            // 
+            this.看做字符数组ToolStripMenuItem.Name = "看做字符数组ToolStripMenuItem";
+            this.看做字符数组ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.看做字符数组ToolStripMenuItem.Text = "看做字符数组";
+            this.看做字符数组ToolStripMenuItem.Click += new System.EventHandler(this.看做字符数组ToolStripMenuItem_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(439, 322);
+            this.ClientSize = new System.Drawing.Size(627, 322);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormMenu";
@@ -220,5 +238,7 @@
         private System.Windows.Forms.ToolStripMenuItem 写入数据库注册ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 读取数据库C语言章节联动ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 用户登录读取数据库ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 字符串StringToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 看做字符数组ToolStripMenuItem;
     }
 }

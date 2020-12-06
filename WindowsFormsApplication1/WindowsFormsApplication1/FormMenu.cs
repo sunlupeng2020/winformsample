@@ -12,6 +12,7 @@ namespace WindowsFormsApplication1
 {
     public partial class FormMenu : Form
     {
+        public static Teacher teacher;
         private Form form1=new Form();
         public FormMenu()
         {
@@ -122,6 +123,13 @@ namespace WindowsFormsApplication1
         {
             Form11Login form11 = new Form11Login();
             form11.Show();
+        }
+
+        private void 看做字符数组ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringAsCharArray form = new FormStringAsCharArray();
+            form.Show();
+
         }
     }
 }

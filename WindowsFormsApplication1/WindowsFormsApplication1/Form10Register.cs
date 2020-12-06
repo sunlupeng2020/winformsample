@@ -62,7 +62,10 @@ namespace WindowsFormsApplication1
                         int count = cmd.ExecuteNonQuery();
                         if (count > 0)
                         {
-                            MessageBox.Show("注册成功！");
+                            MessageBox.Show("注册成功！");//
+                            Form11Login form11 = new Form11Login();
+                            this.Close();
+                            form11.Show();
                         
                         }
                         else
