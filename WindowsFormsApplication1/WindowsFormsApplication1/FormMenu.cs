@@ -100,5 +100,28 @@ namespace WindowsFormsApplication1
             Form7 form7 = new Form7();
             form7.Show();                
         }
+
+        private void 写入数据库注册ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form10Register form10 = new Form10Register();
+            form10.Show();
+        }
+
+        private void FormMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 读取数据库C语言章节联动ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form8 form8 = new Form8();
+            form8.Show();
+        }
+
+        private void 用户登录读取数据库ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form11Login form11 = new Form11Login();
+            form11.Show();
+        }
     }
 }

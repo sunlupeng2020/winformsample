@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\HoverTreeCSharpMysql\v4.0\MySql.Data.dll</HintPath>
+      <HintPath>..\v4.0\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -54,6 +54,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11Login.Designer.cs">
+      <DependentUpon>Form11Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -115,6 +121,12 @@
     <Compile Include="Form9ProgressBar.Designer.cs">
       <DependentUpon>Form9ProgressBar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form10Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10Register.designer.cs">
+      <DependentUpon>Form10Register.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,8 +135,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="teacher.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11Login.resx">
+      <DependentUpon>Form11Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -155,6 +171,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form9ProgressBar.resx">
       <DependentUpon>Form9ProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10Register.resx">
+      <DependentUpon>Form10Register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
