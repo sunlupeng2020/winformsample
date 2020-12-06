@@ -167,5 +167,54 @@ namespace WindowsFormsApplication1
             FormStringJoin连接 form = new FormStringJoin连接();
             form.Show();
         }
+
+        private void 包含ContainsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringContains form = new FormStringContains();
+            form.Show();
+        }
+
+        private void 结尾EndsWithToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringEndsWith form = new FormStringEndsWith();
+            form.Show();
+        }
+
+        private void 模式匹配IndexOfToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringIndexOf form = new FormStringIndexOf();
+            form.Show();
+        }
+
+        private void 分隔SplitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringSplit form = new FormStringSplit();
+            form.Show();
+        }
+
+        private void 截取SubstringToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringSubstring form = new FormStringSubstring();
+            form.Show();
+        }
+
+        private void 转换为字符数组ToCharArrayToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringToCharArray form = new FormStringToCharArray();
+            form.Show();
+        }
+
+        private void 转换为大写ToUpperToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringToUpper form = new FormStringToUpper();
+            form.Show();
+        }
+
+        private void 去除两头空格TrimToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringTrim form = new FormStringTrim();
+            form.Show();
+        }
+
     }
 }

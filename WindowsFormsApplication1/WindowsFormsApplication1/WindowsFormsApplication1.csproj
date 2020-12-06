@@ -140,11 +140,29 @@
     <Compile Include="FormStringCompare比较.Designer.cs">
       <DependentUpon>FormStringCompare比较.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormStringContains.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStringContains.Designer.cs">
+      <DependentUpon>FormStringContains.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStringEndsWith.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStringEndsWith.Designer.cs">
+      <DependentUpon>FormStringEndsWith.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormStringFormat格式化.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormStringFormat格式化.Designer.cs">
       <DependentUpon>FormStringFormat格式化.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStringIndexOf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStringIndexOf.Designer.cs">
+      <DependentUpon>FormStringIndexOf.cs</DependentUpon>
     </Compile>
     <Compile Include="FormStringJoin连接.cs">
       <SubType>Form</SubType>
@@ -152,11 +170,41 @@
     <Compile Include="FormStringJoin连接.Designer.cs">
       <DependentUpon>FormStringJoin连接.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormStringSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStringSplit.Designer.cs">
+      <DependentUpon>FormStringSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStringSubstring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStringSubstring.Designer.cs">
+      <DependentUpon>FormStringSubstring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStringToCharArray.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStringToCharArray.Designer.cs">
+      <DependentUpon>FormStringToCharArray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStringToUpper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStringToUpper.Designer.cs">
+      <DependentUpon>FormStringToUpper.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormStringTravels.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormStringTravels.Designer.cs">
       <DependentUpon>FormStringTravels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStringTrim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStringTrim.Designer.cs">
+      <DependentUpon>FormStringTrim.cs</DependentUpon>
     </Compile>
     <Compile Include="FormString的构造方法.cs">
       <SubType>Form</SubType>
@@ -224,14 +272,26 @@
     <EmbeddedResource Include="FormStringCompare比较.resx">
       <DependentUpon>FormStringCompare比较.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormStringContains.resx">
+      <DependentUpon>FormStringContains.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStringEndsWith.resx">
+      <DependentUpon>FormStringEndsWith.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormStringFormat格式化.resx">
       <DependentUpon>FormStringFormat格式化.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStringIndexOf.resx">
+      <DependentUpon>FormStringIndexOf.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormStringJoin连接.resx">
       <DependentUpon>FormStringJoin连接.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormStringTravels.resx">
       <DependentUpon>FormStringTravels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStringTrim.resx">
+      <DependentUpon>FormStringTrim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormString的构造方法.resx">
       <DependentUpon>FormString的构造方法.cs</DependentUpon>

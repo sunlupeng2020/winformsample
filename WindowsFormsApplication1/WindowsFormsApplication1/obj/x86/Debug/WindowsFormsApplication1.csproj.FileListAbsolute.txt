@@ -80,3 +80,7 @@ D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x8
 D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStringFormat格式化.resources
 D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormString空或Empty判断.resources
 D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStringJoin连接.resources
+D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStringContains.resources
+D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStringEndsWith.resources
+D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStringTrim.resources
+D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStringIndexOf.resources

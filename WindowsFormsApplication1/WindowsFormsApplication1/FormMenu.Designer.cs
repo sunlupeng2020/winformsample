@@ -62,7 +62,6 @@
             this.转换为字符数组ToCharArrayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.转换为大写ToUpperToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.去除两头空格TrimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.转换为小写ToLowerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -287,8 +286,7 @@
             this.截取SubstringToolStripMenuItem,
             this.转换为字符数组ToCharArrayToolStripMenuItem,
             this.转换为大写ToUpperToolStripMenuItem,
-            this.去除两头空格TrimToolStripMenuItem,
-            this.转换为小写ToLowerToolStripMenuItem});
+            this.去除两头空格TrimToolStripMenuItem});
             this.实例方法ToolStripMenuItem.Name = "实例方法ToolStripMenuItem";
             this.实例方法ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.实例方法ToolStripMenuItem.Text = "实例方法";
@@ -298,54 +296,56 @@
             this.包含ContainsToolStripMenuItem.Name = "包含ContainsToolStripMenuItem";
             this.包含ContainsToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.包含ContainsToolStripMenuItem.Text = "包含Contains()";
+            this.包含ContainsToolStripMenuItem.Click += new System.EventHandler(this.包含ContainsToolStripMenuItem_Click);
             // 
             // 结尾EndsWithToolStripMenuItem
             // 
             this.结尾EndsWithToolStripMenuItem.Name = "结尾EndsWithToolStripMenuItem";
             this.结尾EndsWithToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.结尾EndsWithToolStripMenuItem.Text = "结尾EndsWith()";
+            this.结尾EndsWithToolStripMenuItem.Click += new System.EventHandler(this.结尾EndsWithToolStripMenuItem_Click);
             // 
             // 模式匹配IndexOfToolStripMenuItem
             // 
             this.模式匹配IndexOfToolStripMenuItem.Name = "模式匹配IndexOfToolStripMenuItem";
             this.模式匹配IndexOfToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.模式匹配IndexOfToolStripMenuItem.Text = "模式匹配IndexOf()";
+            this.模式匹配IndexOfToolStripMenuItem.Click += new System.EventHandler(this.模式匹配IndexOfToolStripMenuItem_Click);
             // 
             // 分隔SplitToolStripMenuItem
             // 
             this.分隔SplitToolStripMenuItem.Name = "分隔SplitToolStripMenuItem";
             this.分隔SplitToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.分隔SplitToolStripMenuItem.Text = "分隔Split()";
+            this.分隔SplitToolStripMenuItem.Click += new System.EventHandler(this.分隔SplitToolStripMenuItem_Click);
             // 
             // 截取SubstringToolStripMenuItem
             // 
             this.截取SubstringToolStripMenuItem.Name = "截取SubstringToolStripMenuItem";
             this.截取SubstringToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.截取SubstringToolStripMenuItem.Text = "截取Substring()";
+            this.截取SubstringToolStripMenuItem.Click += new System.EventHandler(this.截取SubstringToolStripMenuItem_Click);
             // 
             // 转换为字符数组ToCharArrayToolStripMenuItem
             // 
             this.转换为字符数组ToCharArrayToolStripMenuItem.Name = "转换为字符数组ToCharArrayToolStripMenuItem";
             this.转换为字符数组ToCharArrayToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.转换为字符数组ToCharArrayToolStripMenuItem.Text = "转换为字符数组ToCharArray()";
+            this.转换为字符数组ToCharArrayToolStripMenuItem.Click += new System.EventHandler(this.转换为字符数组ToCharArrayToolStripMenuItem_Click);
             // 
             // 转换为大写ToUpperToolStripMenuItem
             // 
             this.转换为大写ToUpperToolStripMenuItem.Name = "转换为大写ToUpperToolStripMenuItem";
             this.转换为大写ToUpperToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.转换为大写ToUpperToolStripMenuItem.Text = "转换为大写ToUpper()";
+            this.转换为大写ToUpperToolStripMenuItem.Click += new System.EventHandler(this.转换为大写ToUpperToolStripMenuItem_Click);
             // 
             // 去除两头空格TrimToolStripMenuItem
             // 
             this.去除两头空格TrimToolStripMenuItem.Name = "去除两头空格TrimToolStripMenuItem";
             this.去除两头空格TrimToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.去除两头空格TrimToolStripMenuItem.Text = "去除两头空格Trim()";
-            // 
-            // 转换为小写ToLowerToolStripMenuItem
-            // 
-            this.转换为小写ToLowerToolStripMenuItem.Name = "转换为小写ToLowerToolStripMenuItem";
-            this.转换为小写ToLowerToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
-            this.转换为小写ToLowerToolStripMenuItem.Text = "转换为小写ToLower()";
+            this.去除两头空格TrimToolStripMenuItem.Click += new System.EventHandler(this.去除两头空格TrimToolStripMenuItem_Click);
             // 
             // FormMenu
             // 
@@ -400,6 +400,5 @@
         private System.Windows.Forms.ToolStripMenuItem 转换为字符数组ToCharArrayToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 转换为大写ToUpperToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 去除两头空格TrimToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 转换为小写ToLowerToolStripMenuItem;
     }
 }
