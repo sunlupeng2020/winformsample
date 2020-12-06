@@ -62,6 +62,9 @@
             this.转换为字符数组ToCharArrayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.转换为大写ToUpperToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.去除两头空格TrimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stringBuilderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.常用方法ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.性能分析ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +73,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.案例一按钮游戏ToolStripMenuItem,
             this.扩展案例ToolStripMenuItem,
-            this.字符串StringToolStripMenuItem});
+            this.字符串StringToolStripMenuItem,
+            this.stringBuilderToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(627, 25);
@@ -344,8 +348,31 @@
             // 
             this.去除两头空格TrimToolStripMenuItem.Name = "去除两头空格TrimToolStripMenuItem";
             this.去除两头空格TrimToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
-            this.去除两头空格TrimToolStripMenuItem.Text = "去除两头空格Trim()";
+            this.去除两头空格TrimToolStripMenuItem.Text = "去除两端空格Trim()";
             this.去除两头空格TrimToolStripMenuItem.Click += new System.EventHandler(this.去除两头空格TrimToolStripMenuItem_Click);
+            // 
+            // stringBuilderToolStripMenuItem
+            // 
+            this.stringBuilderToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.常用方法ToolStripMenuItem,
+            this.性能分析ToolStripMenuItem});
+            this.stringBuilderToolStripMenuItem.Name = "stringBuilderToolStripMenuItem";
+            this.stringBuilderToolStripMenuItem.Size = new System.Drawing.Size(95, 21);
+            this.stringBuilderToolStripMenuItem.Text = "StringBuilder";
+            // 
+            // 常用方法ToolStripMenuItem
+            // 
+            this.常用方法ToolStripMenuItem.Name = "常用方法ToolStripMenuItem";
+            this.常用方法ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.常用方法ToolStripMenuItem.Text = "常用方法";
+            this.常用方法ToolStripMenuItem.Click += new System.EventHandler(this.常用方法ToolStripMenuItem_Click);
+            // 
+            // 性能分析ToolStripMenuItem
+            // 
+            this.性能分析ToolStripMenuItem.Name = "性能分析ToolStripMenuItem";
+            this.性能分析ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.性能分析ToolStripMenuItem.Text = "性能分析";
+            this.性能分析ToolStripMenuItem.Click += new System.EventHandler(this.性能分析ToolStripMenuItem_Click);
             // 
             // FormMenu
             // 
@@ -400,5 +427,8 @@
         private System.Windows.Forms.ToolStripMenuItem 转换为字符数组ToCharArrayToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 转换为大写ToUpperToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 去除两头空格TrimToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem stringBuilderToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 常用方法ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 性能分析ToolStripMenuItem;
     }
 }

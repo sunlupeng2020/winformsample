@@ -216,5 +216,17 @@ namespace WindowsFormsApplication1
             form.Show();
         }
 
+        private void 常用方法ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringBuilderMethod form = new FormStringBuilderMethod();
+            form.Show();
+        }
+
+        private void 性能分析ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormSpeedCompare frm = new FormSpeedCompare();
+            frm.Show();
+        }
+
     }
 }

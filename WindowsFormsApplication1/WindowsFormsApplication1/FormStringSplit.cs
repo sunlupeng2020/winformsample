@@ -15,5 +15,16 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.AddRange(textBox1.Text.Split(' '));
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "I have a dream";
+            listBox1.Items.Clear();
+        }
     }
 }

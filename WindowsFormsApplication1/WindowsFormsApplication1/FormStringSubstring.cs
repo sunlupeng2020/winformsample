@@ -15,5 +15,17 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string path = textBox1.Text;
+            int index = path.IndexOf(".");
+            lblExtendName.Text = path.Substring(index + 1);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = @"d:\itcast\chapter7\program.cs";
+        }
     }
 }
