@@ -74,3 +74,6 @@ D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x8
 D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form11Login.resources
 D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStringAsCharArray.resources
+D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStringTravels.resources
+D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormString类的构造方法.resources
+D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStringCompare比较.resources

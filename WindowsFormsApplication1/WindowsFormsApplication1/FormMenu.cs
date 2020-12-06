@@ -131,5 +131,23 @@ namespace WindowsFormsApplication1
             form.Show();
 
         }
+
+        private void 字符串的遍历ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringTravels formst = new FormStringTravels();
+            formst.Show();
+        }
+
+        private void 构造方法ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormString类的构造方法 form = new FormString类的构造方法();
+            form.Show();
+        }
+
+        private void 比较CompareToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringCompare比较 form = new FormStringCompare比较();
+            form.Show();
+        }
     }
 }
