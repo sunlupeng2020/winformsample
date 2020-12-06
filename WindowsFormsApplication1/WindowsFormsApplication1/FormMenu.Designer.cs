@@ -261,18 +261,21 @@
             this.格式化FormatToolStripMenuItem.Name = "格式化FormatToolStripMenuItem";
             this.格式化FormatToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.格式化FormatToolStripMenuItem.Text = "格式化Format()";
+            this.格式化FormatToolStripMenuItem.Click += new System.EventHandler(this.格式化FormatToolStripMenuItem_Click);
             // 
             // 判空IsNullOrEmptyToolStripMenuItem
             // 
             this.判空IsNullOrEmptyToolStripMenuItem.Name = "判空IsNullOrEmptyToolStripMenuItem";
             this.判空IsNullOrEmptyToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.判空IsNullOrEmptyToolStripMenuItem.Text = "判空IsNullOrEmpty()";
+            this.判空IsNullOrEmptyToolStripMenuItem.Click += new System.EventHandler(this.判空IsNullOrEmptyToolStripMenuItem_Click);
             // 
             // 连接JoinToolStripMenuItem
             // 
             this.连接JoinToolStripMenuItem.Name = "连接JoinToolStripMenuItem";
             this.连接JoinToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.连接JoinToolStripMenuItem.Text = "连接Join()";
+            this.连接JoinToolStripMenuItem.Click += new System.EventHandler(this.连接JoinToolStripMenuItem_Click);
             // 
             // 实例方法ToolStripMenuItem
             // 

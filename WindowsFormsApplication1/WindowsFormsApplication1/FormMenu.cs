@@ -149,5 +149,23 @@ namespace WindowsFormsApplication1
             FormStringCompare比较 form = new FormStringCompare比较();
             form.Show();
         }
+
+        private void 格式化FormatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringFormat格式化 form = new FormStringFormat格式化();
+            form.Show();
+        }
+
+        private void 判空IsNullOrEmptyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormString空或Empty判断 form = new FormString空或Empty判断();
+            form.Show();
+        }
+
+        private void 连接JoinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStringJoin连接 form = new FormStringJoin连接();
+            form.Show();
+        }
     }
 }
