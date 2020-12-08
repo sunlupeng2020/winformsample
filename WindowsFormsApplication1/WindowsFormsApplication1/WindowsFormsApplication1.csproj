@@ -116,6 +116,36 @@
     <Compile Include="Form8timer.Designer.cs">
       <DependentUpon>Form8timer.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDateTime常用属性.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDateTime常用属性.Designer.cs">
+      <DependentUpon>FormDateTime常用属性.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDateTime的常用方法.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDateTime的常用方法.Designer.cs">
+      <DependentUpon>FormDateTime的常用方法.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRandom构造方法和生成随机数.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRandom构造方法和生成随机数.Designer.cs">
+      <DependentUpon>FormRandom构造方法和生成随机数.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRandom的常用方法.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRandom的常用方法.Designer.cs">
+      <DependentUpon>FormRandom的常用方法.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTimeSpanConstruct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTimeSpanConstruct.Designer.cs">
+      <DependentUpon>FormTimeSpanConstruct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form9ProgressBar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +157,18 @@
     </Compile>
     <Compile Include="Form10Register.designer.cs">
       <DependentUpon>Form10Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDateTime7_19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDateTime7_19.Designer.cs">
+      <DependentUpon>FormDateTime7_19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDateTime构造方法.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDateTime构造方法.Designer.cs">
+      <DependentUpon>FormDateTime构造方法.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMenu.cs">
       <SubType>Form</SubType>
@@ -272,11 +314,32 @@
     <EmbeddedResource Include="Form8timer.resx">
       <DependentUpon>Form8timer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDateTime常用属性.resx">
+      <DependentUpon>FormDateTime常用属性.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDateTime的常用方法.resx">
+      <DependentUpon>FormDateTime的常用方法.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRandom构造方法和生成随机数.resx">
+      <DependentUpon>FormRandom构造方法和生成随机数.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRandom的常用方法.resx">
+      <DependentUpon>FormRandom的常用方法.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimeSpanConstruct.resx">
+      <DependentUpon>FormTimeSpanConstruct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form9ProgressBar.resx">
       <DependentUpon>Form9ProgressBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form10Register.resx">
       <DependentUpon>Form10Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDateTime7_19.resx">
+      <DependentUpon>FormDateTime7_19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDateTime构造方法.resx">
+      <DependentUpon>FormDateTime构造方法.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>

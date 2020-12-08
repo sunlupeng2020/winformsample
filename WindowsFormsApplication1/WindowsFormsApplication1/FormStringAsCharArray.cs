@@ -24,9 +24,6 @@ namespace WindowsFormsApplication1
             label4.Text = textBox1.Text[2].ToString();
             label5.Text = huanying[3].ToString();
             label6.Text = huanying[4].ToString();
-
-
-
         }
     }
 }

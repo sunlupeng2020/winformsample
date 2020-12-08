@@ -21,7 +21,6 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
             string str = "";
-
             Stopwatch sp = new Stopwatch();
             sp.Start();
             for (int i = 0; i < 10000; i++)
@@ -39,5 +38,12 @@ namespace WindowsFormsApplication1
             sp.Stop();
             lblStringBuildertime.Text = sp.Elapsed.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            lblStringTime.Text = "";
+            lblStringBuildertime.Text = "";
+        }
+
     }
 }

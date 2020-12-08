@@ -44,6 +44,7 @@
             this.读取数据库C语言章节联动ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.写入数据库注册ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.用户登录读取数据库ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.datetime19ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.字符串StringToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.看做字符数组ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.字符串的遍历ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -65,6 +66,15 @@
             this.stringBuilderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.常用方法ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.性能分析ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.日期处理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dateTime类的构造方法ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timeSpan类的构造方法ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dateTime类的常用属性ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dateTi常用方法me类的ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.random类ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.构造方法与产生随机数ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.常用方法ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,8 +84,10 @@
             this.案例一按钮游戏ToolStripMenuItem,
             this.扩展案例ToolStripMenuItem,
             this.字符串StringToolStripMenuItem,
-            this.stringBuilderToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.stringBuilderToolStripMenuItem,
+            this.日期处理ToolStripMenuItem,
+            this.random类ToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 24);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(627, 25);
             this.menuStrip1.TabIndex = 0;
@@ -175,7 +187,8 @@
             this.访问数据库ToolStripMenuItem,
             this.读取数据库C语言章节联动ToolStripMenuItem,
             this.写入数据库注册ToolStripMenuItem,
-            this.用户登录读取数据库ToolStripMenuItem});
+            this.用户登录读取数据库ToolStripMenuItem,
+            this.datetime19ToolStripMenuItem});
             this.扩展案例ToolStripMenuItem.Name = "扩展案例ToolStripMenuItem";
             this.扩展案例ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.扩展案例ToolStripMenuItem.Text = "扩展案例";
@@ -208,6 +221,13 @@
             this.用户登录读取数据库ToolStripMenuItem.Text = "用户登录-读取数据库";
             this.用户登录读取数据库ToolStripMenuItem.Click += new System.EventHandler(this.用户登录读取数据库ToolStripMenuItem_Click);
             // 
+            // datetime19ToolStripMenuItem
+            // 
+            this.datetime19ToolStripMenuItem.Name = "datetime19ToolStripMenuItem";
+            this.datetime19ToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
+            this.datetime19ToolStripMenuItem.Text = "Datetime19";
+            this.datetime19ToolStripMenuItem.Click += new System.EventHandler(this.datetime19ToolStripMenuItem_Click);
+            // 
             // 字符串StringToolStripMenuItem
             // 
             this.字符串StringToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -223,21 +243,21 @@
             // 看做字符数组ToolStripMenuItem
             // 
             this.看做字符数组ToolStripMenuItem.Name = "看做字符数组ToolStripMenuItem";
-            this.看做字符数组ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.看做字符数组ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.看做字符数组ToolStripMenuItem.Text = "看做字符数组";
             this.看做字符数组ToolStripMenuItem.Click += new System.EventHandler(this.看做字符数组ToolStripMenuItem_Click);
             // 
             // 字符串的遍历ToolStripMenuItem
             // 
             this.字符串的遍历ToolStripMenuItem.Name = "字符串的遍历ToolStripMenuItem";
-            this.字符串的遍历ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.字符串的遍历ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.字符串的遍历ToolStripMenuItem.Text = "字符串的遍历";
             this.字符串的遍历ToolStripMenuItem.Click += new System.EventHandler(this.字符串的遍历ToolStripMenuItem_Click);
             // 
             // 构造方法ToolStripMenuItem
             // 
             this.构造方法ToolStripMenuItem.Name = "构造方法ToolStripMenuItem";
-            this.构造方法ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.构造方法ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.构造方法ToolStripMenuItem.Text = "构造方法";
             this.构造方法ToolStripMenuItem.Click += new System.EventHandler(this.构造方法ToolStripMenuItem_Click);
             // 
@@ -249,7 +269,7 @@
             this.判空IsNullOrEmptyToolStripMenuItem,
             this.连接JoinToolStripMenuItem});
             this.静态方法ToolStripMenuItem.Name = "静态方法ToolStripMenuItem";
-            this.静态方法ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.静态方法ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.静态方法ToolStripMenuItem.Text = "静态方法";
             // 
             // 比较CompareToolStripMenuItem
@@ -292,7 +312,7 @@
             this.转换为大写ToUpperToolStripMenuItem,
             this.去除两头空格TrimToolStripMenuItem});
             this.实例方法ToolStripMenuItem.Name = "实例方法ToolStripMenuItem";
-            this.实例方法ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.实例方法ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.实例方法ToolStripMenuItem.Text = "实例方法";
             // 
             // 包含ContainsToolStripMenuItem
@@ -374,12 +394,83 @@
             this.性能分析ToolStripMenuItem.Text = "性能分析";
             this.性能分析ToolStripMenuItem.Click += new System.EventHandler(this.性能分析ToolStripMenuItem_Click);
             // 
+            // menuStrip2
+            // 
+            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Size = new System.Drawing.Size(627, 24);
+            this.menuStrip2.TabIndex = 1;
+            this.menuStrip2.Text = "menuStrip2";
+            // 
+            // 日期处理ToolStripMenuItem
+            // 
+            this.日期处理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dateTime类的构造方法ToolStripMenuItem,
+            this.timeSpan类的构造方法ToolStripMenuItem,
+            this.dateTime类的常用属性ToolStripMenuItem,
+            this.dateTi常用方法me类的ToolStripMenuItem});
+            this.日期处理ToolStripMenuItem.Name = "日期处理ToolStripMenuItem";
+            this.日期处理ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
+            this.日期处理ToolStripMenuItem.Text = "日期处理";
+            // 
+            // dateTime类的构造方法ToolStripMenuItem
+            // 
+            this.dateTime类的构造方法ToolStripMenuItem.Name = "dateTime类的构造方法ToolStripMenuItem";
+            this.dateTime类的构造方法ToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.dateTime类的构造方法ToolStripMenuItem.Text = "DateTime类的构造方法";
+            this.dateTime类的构造方法ToolStripMenuItem.Click += new System.EventHandler(this.dateTime类的构造方法ToolStripMenuItem_Click);
+            // 
+            // timeSpan类的构造方法ToolStripMenuItem
+            // 
+            this.timeSpan类的构造方法ToolStripMenuItem.Name = "timeSpan类的构造方法ToolStripMenuItem";
+            this.timeSpan类的构造方法ToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.timeSpan类的构造方法ToolStripMenuItem.Text = "TimeSpan类的构造方法";
+            this.timeSpan类的构造方法ToolStripMenuItem.Click += new System.EventHandler(this.timeSpan类的构造方法ToolStripMenuItem_Click);
+            // 
+            // dateTime类的常用属性ToolStripMenuItem
+            // 
+            this.dateTime类的常用属性ToolStripMenuItem.Name = "dateTime类的常用属性ToolStripMenuItem";
+            this.dateTime类的常用属性ToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.dateTime类的常用属性ToolStripMenuItem.Text = "DateTime类的常用属性";
+            this.dateTime类的常用属性ToolStripMenuItem.Click += new System.EventHandler(this.dateTime类的常用属性ToolStripMenuItem_Click);
+            // 
+            // dateTi常用方法me类的ToolStripMenuItem
+            // 
+            this.dateTi常用方法me类的ToolStripMenuItem.Name = "dateTi常用方法me类的ToolStripMenuItem";
+            this.dateTi常用方法me类的ToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.dateTi常用方法me类的ToolStripMenuItem.Text = "DateTime类的常用方法";
+            this.dateTi常用方法me类的ToolStripMenuItem.Click += new System.EventHandler(this.dateTi常用方法me类的ToolStripMenuItem_Click);
+            // 
+            // random类ToolStripMenuItem
+            // 
+            this.random类ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.构造方法与产生随机数ToolStripMenuItem,
+            this.常用方法ToolStripMenuItem1});
+            this.random类ToolStripMenuItem.Name = "random类ToolStripMenuItem";
+            this.random类ToolStripMenuItem.Size = new System.Drawing.Size(81, 21);
+            this.random类ToolStripMenuItem.Text = "Random类";
+            // 
+            // 构造方法与产生随机数ToolStripMenuItem
+            // 
+            this.构造方法与产生随机数ToolStripMenuItem.Name = "构造方法与产生随机数ToolStripMenuItem";
+            this.构造方法与产生随机数ToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.构造方法与产生随机数ToolStripMenuItem.Text = "构造方法与产生随机数";
+            this.构造方法与产生随机数ToolStripMenuItem.Click += new System.EventHandler(this.构造方法与产生随机数ToolStripMenuItem_Click);
+            // 
+            // 常用方法ToolStripMenuItem1
+            // 
+            this.常用方法ToolStripMenuItem1.Name = "常用方法ToolStripMenuItem1";
+            this.常用方法ToolStripMenuItem1.Size = new System.Drawing.Size(196, 22);
+            this.常用方法ToolStripMenuItem1.Text = "常用方法";
+            this.常用方法ToolStripMenuItem1.Click += new System.EventHandler(this.常用方法ToolStripMenuItem1_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(627, 322);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.menuStrip2);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormMenu";
             this.Text = "FormMenu";
@@ -430,5 +521,15 @@
         private System.Windows.Forms.ToolStripMenuItem stringBuilderToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 常用方法ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 性能分析ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem datetime19ToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem 日期处理ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dateTime类的构造方法ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem timeSpan类的构造方法ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dateTime类的常用属性ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dateTi常用方法me类的ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem random类ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 构造方法与产生随机数ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 常用方法ToolStripMenuItem1;
     }
 }

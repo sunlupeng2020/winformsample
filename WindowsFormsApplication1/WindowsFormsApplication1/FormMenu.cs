@@ -228,5 +228,47 @@ namespace WindowsFormsApplication1
             frm.Show();
         }
 
+        private void datetime19ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDateTime7_19 form = new FormDateTime7_19();
+            form.Show();
+        }
+
+        private void dateTime类的构造方法ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDateTime构造方法 form = new FormDateTime构造方法();
+            form.Show();
+        }
+
+        private void timeSpan类的构造方法ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormTimeSpan构造方法 form = new FormTimeSpan构造方法();
+            form.Show();
+        }
+
+        private void dateTime类的常用属性ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDateTime常用属性 form = new FormDateTime常用属性();
+            form.Show();
+        }
+
+        private void dateTi常用方法me类的ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDateTime的常用方法 form = new FormDateTime的常用方法();
+            form.Show();
+        }
+
+        private void 构造方法与产生随机数ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormRandom构造方法和生成随机数 form = new FormRandom构造方法和生成随机数();
+            form.Show();
+        }
+
+        private void 常用方法ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormRandom的常用方法 form = new FormRandom的常用方法();
+            form.Show();
+        }
+
     }
 }

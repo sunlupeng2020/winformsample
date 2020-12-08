@@ -65,8 +65,7 @@ namespace WindowsFormsApplication1
                             MessageBox.Show("注册成功！");//
                             Form11Login form11 = new Form11Login();
                             this.Close();
-                            form11.Show();
-                        
+                            form11.Show();                        
                         }
                         else
                             MessageBox.Show("注册失败！");
