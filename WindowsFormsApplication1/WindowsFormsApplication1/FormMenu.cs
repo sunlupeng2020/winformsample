@@ -270,5 +270,11 @@ namespace WindowsFormsApplication1
             form.Show();
         }
 
+        private void 文件创建与检测ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormFileCreate form = new FormFileCreate();
+            form.Show();
+        }
+
     }
 }

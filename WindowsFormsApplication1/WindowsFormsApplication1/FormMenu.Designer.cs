@@ -66,7 +66,6 @@
             this.stringBuilderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.常用方法ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.性能分析ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.日期处理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTime类的构造方法ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timeSpan类的构造方法ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -75,6 +74,9 @@
             this.random类ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.构造方法与产生随机数ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.常用方法ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.文件操作ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.文件创建与检测ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,10 +88,11 @@
             this.字符串StringToolStripMenuItem,
             this.stringBuilderToolStripMenuItem,
             this.日期处理ToolStripMenuItem,
-            this.random类ToolStripMenuItem});
+            this.random类ToolStripMenuItem,
+            this.文件操作ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 24);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(627, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(669, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -383,24 +386,16 @@
             // 常用方法ToolStripMenuItem
             // 
             this.常用方法ToolStripMenuItem.Name = "常用方法ToolStripMenuItem";
-            this.常用方法ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.常用方法ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.常用方法ToolStripMenuItem.Text = "常用方法";
             this.常用方法ToolStripMenuItem.Click += new System.EventHandler(this.常用方法ToolStripMenuItem_Click);
             // 
             // 性能分析ToolStripMenuItem
             // 
             this.性能分析ToolStripMenuItem.Name = "性能分析ToolStripMenuItem";
-            this.性能分析ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.性能分析ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.性能分析ToolStripMenuItem.Text = "性能分析";
             this.性能分析ToolStripMenuItem.Click += new System.EventHandler(this.性能分析ToolStripMenuItem_Click);
-            // 
-            // menuStrip2
-            // 
-            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(627, 24);
-            this.menuStrip2.TabIndex = 1;
-            this.menuStrip2.Text = "menuStrip2";
             // 
             // 日期处理ToolStripMenuItem
             // 
@@ -464,11 +459,34 @@
             this.常用方法ToolStripMenuItem1.Text = "常用方法";
             this.常用方法ToolStripMenuItem1.Click += new System.EventHandler(this.常用方法ToolStripMenuItem1_Click);
             // 
+            // menuStrip2
+            // 
+            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Size = new System.Drawing.Size(669, 24);
+            this.menuStrip2.TabIndex = 1;
+            this.menuStrip2.Text = "menuStrip2";
+            // 
+            // 文件操作ToolStripMenuItem
+            // 
+            this.文件操作ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.文件创建与检测ToolStripMenuItem});
+            this.文件操作ToolStripMenuItem.Name = "文件操作ToolStripMenuItem";
+            this.文件操作ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
+            this.文件操作ToolStripMenuItem.Text = "文件操作";
+            // 
+            // 文件创建与检测ToolStripMenuItem
+            // 
+            this.文件创建与检测ToolStripMenuItem.Name = "文件创建与检测ToolStripMenuItem";
+            this.文件创建与检测ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.文件创建与检测ToolStripMenuItem.Text = "文件创建与检测";
+            this.文件创建与检测ToolStripMenuItem.Click += new System.EventHandler(this.文件创建与检测ToolStripMenuItem_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(627, 322);
+            this.ClientSize = new System.Drawing.Size(669, 432);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
             this.MainMenuStrip = this.menuStrip1;
@@ -531,5 +549,7 @@
         private System.Windows.Forms.ToolStripMenuItem random类ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 构造方法与产生随机数ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 常用方法ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 文件操作ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 文件创建与检测ToolStripMenuItem;
     }
 }

@@ -128,6 +128,12 @@
     <Compile Include="FormDateTime的常用方法.Designer.cs">
       <DependentUpon>FormDateTime的常用方法.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormFileCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFileCreate.Designer.cs">
+      <DependentUpon>FormFileCreate.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRandom构造方法和生成随机数.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -319,6 +325,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDateTime的常用方法.resx">
       <DependentUpon>FormDateTime的常用方法.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFileCreate.resx">
+      <DependentUpon>FormFileCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRandom构造方法和生成随机数.resx">
       <DependentUpon>FormRandom构造方法和生成随机数.cs</DependentUpon>
