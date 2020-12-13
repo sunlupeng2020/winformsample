@@ -276,5 +276,35 @@ namespace WindowsFormsApplication1
             form.Show();
         }
 
+        private void fileInfo文件创建与检测ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormFileInfo类创建文件判断文件是否存在等 form = new FormFileInfo类创建文件判断文件是否存在等();
+            form.Show();
+        }
+
+        private void directory类创建多级目录ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDirectory创建多级目录 form = new FormDirectory创建多级目录();
+            form.Show();
+        }
+
+        private void directory类的常用属性ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDirectoryInfo属性 form = new FormDirectoryInfo属性();
+            form.Show();
+        }
+
+        private void fileStream类读取文件ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormFileStream类读取文件 form = new FormFileStream类读取文件();
+            form.Show();
+        }
+
+        private void fileStream类写入文件ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormFileStream写入文件 form = new FormFileStream写入文件();
+            form.Show();
+        }
+
     }
 }
