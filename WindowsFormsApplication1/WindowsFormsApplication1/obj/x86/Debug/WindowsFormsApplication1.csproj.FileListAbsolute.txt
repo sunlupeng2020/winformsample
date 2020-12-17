@@ -190,3 +190,4 @@ E:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x8
 E:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStreamReader读取文件.resources
 E:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStreamReaderWriter文件读写.resources
 E:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormPath类的静态方法.resources
+E:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormBufferedStream.resources

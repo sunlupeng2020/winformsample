@@ -342,5 +342,11 @@ namespace WindowsFormsApplication1
             form.Show();
         }
 
+        private void bufferStream类ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormBufferedStream form = new FormBufferedStream();
+            form.Show();
+        }
+
     }
 }

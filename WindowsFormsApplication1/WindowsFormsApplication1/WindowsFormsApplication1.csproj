@@ -116,6 +116,12 @@
     <Compile Include="Form8timer.Designer.cs">
       <DependentUpon>Form8timer.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBufferedStream.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBufferedStream.Designer.cs">
+      <DependentUpon>FormBufferedStream.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDateTimeandTimeSpan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -385,6 +391,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form8timer.resx">
       <DependentUpon>Form8timer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBufferedStream.resx">
+      <DependentUpon>FormBufferedStream.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDateTimeandTimeSpan.resx">
       <DependentUpon>FormDateTimeandTimeSpan.cs</DependentUpon>
