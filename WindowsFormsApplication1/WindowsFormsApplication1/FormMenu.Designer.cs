@@ -85,6 +85,10 @@
             this.fileStream实现文件复制ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.streamWriter写入文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.streanReader读取文本文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.文件路径操作ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.streamReaderWriter写入与读取ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.path类的静态方法ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bufferStream类ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -97,10 +101,11 @@
             this.stringBuilderToolStripMenuItem,
             this.日期处理ToolStripMenuItem,
             this.random类ToolStripMenuItem,
-            this.文件操作ToolStripMenuItem});
+            this.文件操作ToolStripMenuItem,
+            this.文件路径操作ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(669, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(1043, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -486,7 +491,8 @@
             this.fileStream类写入文件ToolStripMenuItem,
             this.fileStream实现文件复制ToolStripMenuItem,
             this.streamWriter写入文件ToolStripMenuItem,
-            this.streanReader读取文本文件ToolStripMenuItem});
+            this.streanReader读取文本文件ToolStripMenuItem,
+            this.streamReaderWriter写入与读取ToolStripMenuItem});
             this.文件操作ToolStripMenuItem.Name = "文件操作ToolStripMenuItem";
             this.文件操作ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.文件操作ToolStripMenuItem.Text = "文件操作";
@@ -494,56 +500,56 @@
             // 文件创建与检测ToolStripMenuItem
             // 
             this.文件创建与检测ToolStripMenuItem.Name = "文件创建与检测ToolStripMenuItem";
-            this.文件创建与检测ToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.文件创建与检测ToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.文件创建与检测ToolStripMenuItem.Text = "File类文件创建与检测";
             this.文件创建与检测ToolStripMenuItem.Click += new System.EventHandler(this.文件创建与检测ToolStripMenuItem_Click);
             // 
             // fileInfo文件创建与检测ToolStripMenuItem
             // 
             this.fileInfo文件创建与检测ToolStripMenuItem.Name = "fileInfo文件创建与检测ToolStripMenuItem";
-            this.fileInfo文件创建与检测ToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.fileInfo文件创建与检测ToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.fileInfo文件创建与检测ToolStripMenuItem.Text = "FileInfo文件创建与检测";
             this.fileInfo文件创建与检测ToolStripMenuItem.Click += new System.EventHandler(this.fileInfo文件创建与检测ToolStripMenuItem_Click);
             // 
             // directory类创建多级目录ToolStripMenuItem
             // 
             this.directory类创建多级目录ToolStripMenuItem.Name = "directory类创建多级目录ToolStripMenuItem";
-            this.directory类创建多级目录ToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.directory类创建多级目录ToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.directory类创建多级目录ToolStripMenuItem.Text = "Directory类创建多级目录";
             this.directory类创建多级目录ToolStripMenuItem.Click += new System.EventHandler(this.directory类创建多级目录ToolStripMenuItem_Click);
             // 
             // directory类的常用属性ToolStripMenuItem
             // 
             this.directory类的常用属性ToolStripMenuItem.Name = "directory类的常用属性ToolStripMenuItem";
-            this.directory类的常用属性ToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.directory类的常用属性ToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.directory类的常用属性ToolStripMenuItem.Text = "DirectoryInfo类的常用属性";
             this.directory类的常用属性ToolStripMenuItem.Click += new System.EventHandler(this.directory类的常用属性ToolStripMenuItem_Click);
             // 
             // fileStream类读取文件ToolStripMenuItem
             // 
             this.fileStream类读取文件ToolStripMenuItem.Name = "fileStream类读取文件ToolStripMenuItem";
-            this.fileStream类读取文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.fileStream类读取文件ToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.fileStream类读取文件ToolStripMenuItem.Text = "FileStream类读取文件";
             this.fileStream类读取文件ToolStripMenuItem.Click += new System.EventHandler(this.fileStream类读取文件ToolStripMenuItem_Click);
             // 
             // fileStream类写入文件ToolStripMenuItem
             // 
             this.fileStream类写入文件ToolStripMenuItem.Name = "fileStream类写入文件ToolStripMenuItem";
-            this.fileStream类写入文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.fileStream类写入文件ToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.fileStream类写入文件ToolStripMenuItem.Text = "FileStream类写入文件";
             this.fileStream类写入文件ToolStripMenuItem.Click += new System.EventHandler(this.fileStream类写入文件ToolStripMenuItem_Click);
             // 
             // fileStream实现文件复制ToolStripMenuItem
             // 
             this.fileStream实现文件复制ToolStripMenuItem.Name = "fileStream实现文件复制ToolStripMenuItem";
-            this.fileStream实现文件复制ToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.fileStream实现文件复制ToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.fileStream实现文件复制ToolStripMenuItem.Text = "FileStream实现文件复制";
             this.fileStream实现文件复制ToolStripMenuItem.Click += new System.EventHandler(this.fileStream实现文件复制ToolStripMenuItem_Click);
             // 
             // streamWriter写入文件ToolStripMenuItem
             // 
             this.streamWriter写入文件ToolStripMenuItem.Name = "streamWriter写入文件ToolStripMenuItem";
-            this.streamWriter写入文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.streamWriter写入文件ToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.streamWriter写入文件ToolStripMenuItem.Text = "StreamWriter写入文件";
             this.streamWriter写入文件ToolStripMenuItem.Click += new System.EventHandler(this.streamWriter写入文件ToolStripMenuItem_Click);
             // 
@@ -554,11 +560,40 @@
             this.streanReader读取文本文件ToolStripMenuItem.Text = "StreanReader读取文本文件";
             this.streanReader读取文本文件ToolStripMenuItem.Click += new System.EventHandler(this.streanReader读取文本文件ToolStripMenuItem_Click);
             // 
+            // 文件路径操作ToolStripMenuItem
+            // 
+            this.文件路径操作ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.path类的静态方法ToolStripMenuItem,
+            this.bufferStream类ToolStripMenuItem});
+            this.文件路径操作ToolStripMenuItem.Name = "文件路径操作ToolStripMenuItem";
+            this.文件路径操作ToolStripMenuItem.Size = new System.Drawing.Size(92, 21);
+            this.文件路径操作ToolStripMenuItem.Text = "文件路径操作";
+            // 
+            // streamReaderWriter写入与读取ToolStripMenuItem
+            // 
+            this.streamReaderWriter写入与读取ToolStripMenuItem.Name = "streamReaderWriter写入与读取ToolStripMenuItem";
+            this.streamReaderWriter写入与读取ToolStripMenuItem.Size = new System.Drawing.Size(255, 22);
+            this.streamReaderWriter写入与读取ToolStripMenuItem.Text = "StreamReaderWriter写入与读取";
+            this.streamReaderWriter写入与读取ToolStripMenuItem.Click += new System.EventHandler(this.streamReaderWriter写入与读取ToolStripMenuItem_Click);
+            // 
+            // path类的静态方法ToolStripMenuItem
+            // 
+            this.path类的静态方法ToolStripMenuItem.Name = "path类的静态方法ToolStripMenuItem";
+            this.path类的静态方法ToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.path类的静态方法ToolStripMenuItem.Text = "Path类的静态方法";
+            this.path类的静态方法ToolStripMenuItem.Click += new System.EventHandler(this.path类的静态方法ToolStripMenuItem_Click);
+            // 
+            // bufferStream类ToolStripMenuItem
+            // 
+            this.bufferStream类ToolStripMenuItem.Name = "bufferStream类ToolStripMenuItem";
+            this.bufferStream类ToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.bufferStream类ToolStripMenuItem.Text = "BufferStream类";
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(669, 432);
+            this.ClientSize = new System.Drawing.Size(1043, 432);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormMenu";
@@ -630,5 +665,9 @@
         private System.Windows.Forms.ToolStripMenuItem fileStream实现文件复制ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem streamWriter写入文件ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem streanReader读取文本文件ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 文件路径操作ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem streamReaderWriter写入与读取ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem path类的静态方法ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bufferStream类ToolStripMenuItem;
     }
 }

@@ -330,5 +330,17 @@ namespace WindowsFormsApplication1
             form.Show();
         }
 
+        private void streamReaderWriter写入与读取ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStreamReaderWriter文件读写 form = new FormStreamReaderWriter文件读写();
+            form.Show();
+        }
+
+        private void path类的静态方法ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormPath类的静态方法 form = new FormPath类的静态方法();
+            form.Show();
+        }
+
     }
 }

@@ -176,6 +176,12 @@
     <Compile Include="FormFileStream类读取文件.Designer.cs">
       <DependentUpon>FormFileStream类读取文件.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPath类的静态方法.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPath类的静态方法.Designer.cs">
+      <DependentUpon>FormPath类的静态方法.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRandom构造方法和生成随机数.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,6 +193,12 @@
     </Compile>
     <Compile Include="FormRandom的常用方法.Designer.cs">
       <DependentUpon>FormRandom的常用方法.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStreamReaderWriter文件读写.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStreamReaderWriter文件读写.Designer.cs">
+      <DependentUpon>FormStreamReaderWriter文件读写.cs</DependentUpon>
     </Compile>
     <Compile Include="FormStreamReader读取文件.cs">
       <SubType>Form</SubType>
@@ -404,11 +416,17 @@
     <EmbeddedResource Include="FormFileStream类读取文件.resx">
       <DependentUpon>FormFileStream类读取文件.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPath类的静态方法.resx">
+      <DependentUpon>FormPath类的静态方法.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormRandom构造方法和生成随机数.resx">
       <DependentUpon>FormRandom构造方法和生成随机数.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRandom的常用方法.resx">
       <DependentUpon>FormRandom的常用方法.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStreamReaderWriter文件读写.resx">
+      <DependentUpon>FormStreamReaderWriter文件读写.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormStreamReader读取文件.resx">
       <DependentUpon>FormStreamReader读取文件.cs</DependentUpon>
