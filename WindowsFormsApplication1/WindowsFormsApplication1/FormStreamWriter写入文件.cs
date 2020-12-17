@@ -52,7 +52,7 @@ namespace WindowsFormsApplication1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "d:\data02.txt";
+            textBox1.Text = @"d:\data02.txt";
             textBox2.Text="StreamWriter写入文件。";
         }
     }

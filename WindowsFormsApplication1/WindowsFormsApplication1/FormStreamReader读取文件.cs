@@ -39,5 +39,11 @@ namespace WindowsFormsApplication1
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = @"d:\data02.txt";
+            textBox2.Text = "";
+        }
     }
 }

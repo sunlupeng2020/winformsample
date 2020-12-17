@@ -324,5 +324,11 @@ namespace WindowsFormsApplication1
             form.Show();
         }
 
+        private void streanReader读取文本文件ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStreamReader读取文件 form = new FormStreamReader读取文件();
+            form.Show();
+        }
+
     }
 }

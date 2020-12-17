@@ -84,6 +84,7 @@
             this.fileStream类写入文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileStream实现文件复制ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.streamWriter写入文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.streanReader读取文本文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -484,7 +485,8 @@
             this.fileStream类读取文件ToolStripMenuItem,
             this.fileStream类写入文件ToolStripMenuItem,
             this.fileStream实现文件复制ToolStripMenuItem,
-            this.streamWriter写入文件ToolStripMenuItem});
+            this.streamWriter写入文件ToolStripMenuItem,
+            this.streanReader读取文本文件ToolStripMenuItem});
             this.文件操作ToolStripMenuItem.Name = "文件操作ToolStripMenuItem";
             this.文件操作ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.文件操作ToolStripMenuItem.Text = "文件操作";
@@ -544,6 +546,13 @@
             this.streamWriter写入文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
             this.streamWriter写入文件ToolStripMenuItem.Text = "StreamWriter写入文件";
             this.streamWriter写入文件ToolStripMenuItem.Click += new System.EventHandler(this.streamWriter写入文件ToolStripMenuItem_Click);
+            // 
+            // streanReader读取文本文件ToolStripMenuItem
+            // 
+            this.streanReader读取文本文件ToolStripMenuItem.Name = "streanReader读取文本文件ToolStripMenuItem";
+            this.streanReader读取文本文件ToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
+            this.streanReader读取文本文件ToolStripMenuItem.Text = "StreanReader读取文本文件";
+            this.streanReader读取文本文件ToolStripMenuItem.Click += new System.EventHandler(this.streanReader读取文本文件ToolStripMenuItem_Click);
             // 
             // FormMenu
             // 
@@ -620,5 +629,6 @@
         private System.Windows.Forms.ToolStripMenuItem dateTime和TimeSpanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fileStream实现文件复制ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem streamWriter写入文件ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem streanReader读取文本文件ToolStripMenuItem;
     }
 }

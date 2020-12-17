@@ -34,12 +34,13 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button3.Location = new System.Drawing.Point(119, 135);
+            this.button3.Location = new System.Drawing.Point(81, 132);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(187, 28);
             this.button3.TabIndex = 13;
@@ -75,7 +76,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(344, 202);
             this.textBox2.TabIndex = 10;
-            this.textBox2.Text = "StreamWriter写入文件。";
             // 
             // textBox1
             // 
@@ -96,11 +96,23 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "文件标识符（盘符路径文件名）：";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.Location = new System.Drawing.Point(292, 132);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(91, 28);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "重置";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormStreamReader读取文件
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(470, 417);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -122,5 +134,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
