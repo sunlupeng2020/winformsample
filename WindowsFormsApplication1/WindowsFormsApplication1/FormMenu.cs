@@ -306,5 +306,17 @@ namespace WindowsFormsApplication1
             form.Show();
         }
 
+        private void dateTime和TimeSpanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDateTimeandTimeSpan form = new FormDateTimeandTimeSpan();
+            form.Show();
+        }
+
+        private void fileStream实现文件复制ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormFileStream文件复制 form = new FormFileStream文件复制();
+            form.Show();
+        }
+
     }
 }

@@ -116,6 +116,12 @@
     <Compile Include="Form8timer.Designer.cs">
       <DependentUpon>Form8timer.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDateTimeandTimeSpan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDateTimeandTimeSpan.Designer.cs">
+      <DependentUpon>FormDateTimeandTimeSpan.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDateTime常用属性.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +163,12 @@
     </Compile>
     <Compile Include="FormFileStream写入文件.Designer.cs">
       <DependentUpon>FormFileStream写入文件.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFileStream文件复制.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFileStream文件复制.Designer.cs">
+      <DependentUpon>FormFileStream文件复制.cs</DependentUpon>
     </Compile>
     <Compile Include="FormFileStream类读取文件.cs">
       <SubType>Form</SubType>
@@ -350,6 +362,9 @@
     <EmbeddedResource Include="Form8timer.resx">
       <DependentUpon>Form8timer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDateTimeandTimeSpan.resx">
+      <DependentUpon>FormDateTimeandTimeSpan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDateTime常用属性.resx">
       <DependentUpon>FormDateTime常用属性.cs</DependentUpon>
     </EmbeddedResource>
@@ -370,6 +385,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormFileStream写入文件.resx">
       <DependentUpon>FormFileStream写入文件.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFileStream文件复制.resx">
+      <DependentUpon>FormFileStream文件复制.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormFileStream类读取文件.resx">
       <DependentUpon>FormFileStream类读取文件.cs</DependentUpon>
