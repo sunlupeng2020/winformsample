@@ -188,6 +188,12 @@
     <Compile Include="FormRandom的常用方法.Designer.cs">
       <DependentUpon>FormRandom的常用方法.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormStreamWriter写入文件.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStreamWriter写入文件.Designer.cs">
+      <DependentUpon>FormStreamWriter写入文件.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTimeSpanConstruct.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -397,6 +403,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormRandom的常用方法.resx">
       <DependentUpon>FormRandom的常用方法.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStreamWriter写入文件.resx">
+      <DependentUpon>FormStreamWriter写入文件.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTimeSpanConstruct.resx">
       <DependentUpon>FormTimeSpanConstruct.cs</DependentUpon>

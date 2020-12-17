@@ -71,6 +71,7 @@
             this.timeSpan类的构造方法ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTime类的常用属性ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTi常用方法me类的ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dateTime和TimeSpanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.random类ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.构造方法与产生随机数ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.常用方法ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -81,8 +82,8 @@
             this.directory类的常用属性ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileStream类读取文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileStream类写入文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dateTime和TimeSpanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileStream实现文件复制ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.streamWriter写入文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -443,6 +444,13 @@
             this.dateTi常用方法me类的ToolStripMenuItem.Text = "DateTime类的常用方法";
             this.dateTi常用方法me类的ToolStripMenuItem.Click += new System.EventHandler(this.dateTi常用方法me类的ToolStripMenuItem_Click);
             // 
+            // dateTime和TimeSpanToolStripMenuItem
+            // 
+            this.dateTime和TimeSpanToolStripMenuItem.Name = "dateTime和TimeSpanToolStripMenuItem";
+            this.dateTime和TimeSpanToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.dateTime和TimeSpanToolStripMenuItem.Text = "DateTime和TimeSpan";
+            this.dateTime和TimeSpanToolStripMenuItem.Click += new System.EventHandler(this.dateTime和TimeSpanToolStripMenuItem_Click);
+            // 
             // random类ToolStripMenuItem
             // 
             this.random类ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -475,7 +483,8 @@
             this.directory类的常用属性ToolStripMenuItem,
             this.fileStream类读取文件ToolStripMenuItem,
             this.fileStream类写入文件ToolStripMenuItem,
-            this.fileStream实现文件复制ToolStripMenuItem});
+            this.fileStream实现文件复制ToolStripMenuItem,
+            this.streamWriter写入文件ToolStripMenuItem});
             this.文件操作ToolStripMenuItem.Name = "文件操作ToolStripMenuItem";
             this.文件操作ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.文件操作ToolStripMenuItem.Text = "文件操作";
@@ -522,19 +531,19 @@
             this.fileStream类写入文件ToolStripMenuItem.Text = "FileStream类写入文件";
             this.fileStream类写入文件ToolStripMenuItem.Click += new System.EventHandler(this.fileStream类写入文件ToolStripMenuItem_Click);
             // 
-            // dateTime和TimeSpanToolStripMenuItem
-            // 
-            this.dateTime和TimeSpanToolStripMenuItem.Name = "dateTime和TimeSpanToolStripMenuItem";
-            this.dateTime和TimeSpanToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
-            this.dateTime和TimeSpanToolStripMenuItem.Text = "DateTime和TimeSpan";
-            this.dateTime和TimeSpanToolStripMenuItem.Click += new System.EventHandler(this.dateTime和TimeSpanToolStripMenuItem_Click);
-            // 
             // fileStream实现文件复制ToolStripMenuItem
             // 
             this.fileStream实现文件复制ToolStripMenuItem.Name = "fileStream实现文件复制ToolStripMenuItem";
             this.fileStream实现文件复制ToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
             this.fileStream实现文件复制ToolStripMenuItem.Text = "FileStream实现文件复制";
             this.fileStream实现文件复制ToolStripMenuItem.Click += new System.EventHandler(this.fileStream实现文件复制ToolStripMenuItem_Click);
+            // 
+            // streamWriter写入文件ToolStripMenuItem
+            // 
+            this.streamWriter写入文件ToolStripMenuItem.Name = "streamWriter写入文件ToolStripMenuItem";
+            this.streamWriter写入文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.streamWriter写入文件ToolStripMenuItem.Text = "StreamWriter写入文件";
+            this.streamWriter写入文件ToolStripMenuItem.Click += new System.EventHandler(this.streamWriter写入文件ToolStripMenuItem_Click);
             // 
             // FormMenu
             // 
@@ -610,5 +619,6 @@
         private System.Windows.Forms.ToolStripMenuItem fileStream类写入文件ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dateTime和TimeSpanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fileStream实现文件复制ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem streamWriter写入文件ToolStripMenuItem;
     }
 }

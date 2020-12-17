@@ -318,5 +318,11 @@ namespace WindowsFormsApplication1
             form.Show();
         }
 
+        private void streamWriter写入文件ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStreamWriter写入文件 form = new FormStreamWriter写入文件();
+            form.Show();
+        }
+
     }
 }
