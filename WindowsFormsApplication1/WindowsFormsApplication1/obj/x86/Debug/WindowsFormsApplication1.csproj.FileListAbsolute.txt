@@ -198,3 +198,4 @@ D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x8
 D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStreamReaderWriter文件读写.resources
 D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStreamReader读取文件.resources
 D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormStreamWriter写入文件.resources
+D:\github\winformsample\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form序列化和反序列化.resources

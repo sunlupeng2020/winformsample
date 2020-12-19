@@ -348,5 +348,11 @@ namespace WindowsFormsApplication1
             form.Show();
         }
 
+        private void 序列化与反序列化ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form序列化和反序列化 form = new Form序列化和反序列化();
+            form.Show();
+        }
+
     }
 }

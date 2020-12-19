@@ -89,6 +89,7 @@
             this.文件路径操作ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.path类的静态方法ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bufferStream类ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.序列化与反序列化ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -571,7 +572,8 @@
             // 
             this.文件路径操作ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.path类的静态方法ToolStripMenuItem,
-            this.bufferStream类ToolStripMenuItem});
+            this.bufferStream类ToolStripMenuItem,
+            this.序列化与反序列化ToolStripMenuItem});
             this.文件路径操作ToolStripMenuItem.Name = "文件路径操作ToolStripMenuItem";
             this.文件路径操作ToolStripMenuItem.Size = new System.Drawing.Size(92, 21);
             this.文件路径操作ToolStripMenuItem.Text = "文件路径操作";
@@ -589,6 +591,13 @@
             this.bufferStream类ToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.bufferStream类ToolStripMenuItem.Text = "BufferStream类";
             this.bufferStream类ToolStripMenuItem.Click += new System.EventHandler(this.bufferStream类ToolStripMenuItem_Click);
+            // 
+            // 序列化与反序列化ToolStripMenuItem
+            // 
+            this.序列化与反序列化ToolStripMenuItem.Name = "序列化与反序列化ToolStripMenuItem";
+            this.序列化与反序列化ToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.序列化与反序列化ToolStripMenuItem.Text = "序列化与反序列化";
+            this.序列化与反序列化ToolStripMenuItem.Click += new System.EventHandler(this.序列化与反序列化ToolStripMenuItem_Click);
             // 
             // FormMenu
             // 
@@ -670,5 +679,6 @@
         private System.Windows.Forms.ToolStripMenuItem streamReaderWriter写入与读取ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem path类的静态方法ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bufferStream类ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 序列化与反序列化ToolStripMenuItem;
     }
 }
