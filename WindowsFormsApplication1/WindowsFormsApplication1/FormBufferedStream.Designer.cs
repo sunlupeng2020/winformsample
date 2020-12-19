@@ -89,18 +89,18 @@
             // btnRead
             // 
             this.btnRead.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnRead.Location = new System.Drawing.Point(80, 384);
+            this.btnRead.Location = new System.Drawing.Point(12, 384);
             this.btnRead.Name = "btnRead";
-            this.btnRead.Size = new System.Drawing.Size(142, 35);
+            this.btnRead.Size = new System.Drawing.Size(335, 35);
             this.btnRead.TabIndex = 3;
-            this.btnRead.Text = "读取与写入";
+            this.btnRead.Text = "读取data1.txt写入data2.txt";
             this.btnRead.UseVisualStyleBackColor = true;
             this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(273, 384);
+            this.button2.Location = new System.Drawing.Point(382, 384);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(124, 35);
             this.button2.TabIndex = 4;
