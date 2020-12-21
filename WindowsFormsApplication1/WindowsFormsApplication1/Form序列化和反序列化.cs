@@ -9,6 +9,7 @@ using System.Windows.Forms;
 
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+//using System.Runtime.Serialization.Formatters.Binary;
 
 namespace WindowsFormsApplication1
 {
